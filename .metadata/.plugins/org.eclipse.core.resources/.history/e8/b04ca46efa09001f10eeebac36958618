@@ -1,0 +1,14 @@
+package com.ait.client;
+
+import com.ait.dao.StudentDAO;
+import com.ashokit.entity.Student;
+
+public class StudentDAOImpl implements StudentDAO {
+
+	@Override
+	public void savestudent(Student Student) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
