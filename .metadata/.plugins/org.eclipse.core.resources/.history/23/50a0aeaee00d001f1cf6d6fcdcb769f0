@@ -1,0 +1,32 @@
+package com.ait.dao.impl;
+
+import com.ait.dao.ProductDAO;
+import com.ait.entity.ProductEntity;
+
+public class ProductDAOImpl implements ProductDAO {
+
+	@Override
+	public ProductEntity saveproduct(ProductEntity product) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ProductEntity loadProductById(Integer Product_Id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ProductEntity updateproductById(Integer product_id, double new_UnitPrice) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteproductById(Integer Product_Id) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

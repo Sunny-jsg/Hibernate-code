@@ -29,6 +29,14 @@ public class Student {
 	public void setMarks(int marks) {
 		Marks = marks;
 	}
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", Name=" + Name + ", Gender=" + Gender + ", Marks=" + Marks + ", getId()="
+				+ getId() + ", getName()=" + getName() + ", getGender()=" + getGender() + ", getMarks()=" + getMarks()
+				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
+	}
+	
 	
 
 }
