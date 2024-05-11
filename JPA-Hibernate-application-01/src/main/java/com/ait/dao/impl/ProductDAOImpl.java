@@ -64,4 +64,27 @@ public class ProductDAOImpl implements ProductDAO {
 
 	}
 
+	@Override
+	public void EntityStates() {
+		EntityManager em = factory.createEntityManager();
+		/*
+		 * ProductEntity pe =new ProductEntity();// transient state
+		 * pe.setProductid(103); pe.setProductName("Watch"); pe.setQuantity(8);
+		 * pe.setUnitPrice(1200.0);
+		 */
+		/*
+		 * EntityTransaction tx = em.getTransaction(); tx.begin(); em.persist(pe);//
+		 * persistent state tx.commit();
+		 */
+		ProductEntity pe = em.find(ProductEntity.class, 103);
+//pe Entity in persistent state
+		em.detach(pe);// Detach state
+		pe.setUnitPrice(1500.0);// this unit price can not effected in database.
+		EntityTransaction t = em.getTransaction();
+		t.begin();
+		em.merge(pe);//move Detach state to persistent state
+		t.commit();
+		em.close();
+	}
+
 }

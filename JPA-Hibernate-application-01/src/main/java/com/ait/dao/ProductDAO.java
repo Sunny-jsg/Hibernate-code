@@ -7,4 +7,5 @@ public interface ProductDAO {
     ProductEntity   loadProductById(Integer Product_Id);
     ProductEntity updateproductById(Integer product_id, double new_UnitPrice);
     void deleteproductById(Integer Product_Id);
+    void EntityStates();
 }

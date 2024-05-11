@@ -25,12 +25,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.ait.Entity"/>
 			<item value="com.ait.entity"/>
 		</list>
 		<list key="groupId">
 			<item value="com.ait"/>
 		</list>
 		<list key="artifactId">
+			<item value="Embeddable_Application"/>
 			<item value="JPA-Hibernate-application-01"/>
 		</list>
 		<list key="projectNameTemplate">

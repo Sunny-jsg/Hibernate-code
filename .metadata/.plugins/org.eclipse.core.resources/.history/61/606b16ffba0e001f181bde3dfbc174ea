@@ -1,0 +1,5 @@
+package com.ait.StudentDAO;
+
+public interface StudentDAO {
+
+}
