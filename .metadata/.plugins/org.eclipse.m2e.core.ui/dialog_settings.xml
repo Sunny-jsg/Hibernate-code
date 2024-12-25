@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Hibernate\HibernateFirstApplication\pom.xml"/>
+			<item value="D:\Hibernate\HibernateFirstApplication"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -25,15 +27,21 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.ait.Entity"/>
+			<item value="com.sy.sunny"/>
+			<item value="com.ashokit.Test"/>
+			<item value="com.ashokit.Application"/>
 			<item value="com.ait.entity"/>
 		</list>
 		<list key="groupId">
+			<item value="com.sy"/>
+			<item value="com.ashokit"/>
 			<item value="com.ait"/>
 		</list>
 		<list key="artifactId">
-			<item value="Embeddable_Application"/>
-			<item value="JPA-Hibernate-application-01"/>
+			<item value="Test"/>
+			<item value="Application"/>
+			<item value="HibernateFirstApplication"/>
+			<item value="Hibernate-First-Application"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -44,6 +52,7 @@
 			<item value="[name]"/>
 		</list>
 		<list key="version">
+			<item value="1.1"/>
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
@@ -69,5 +78,7 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
 	</section>
 </section>
