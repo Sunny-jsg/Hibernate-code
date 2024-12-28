@@ -37,9 +37,71 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 		System.out.println(e);
 	}finally {
 		session.close();
-		factory.close();
+		//factory.close();
 	}
 
+	}
+
+	@Override
+	public Employee loadStudent(int sid) {
+		/*
+		 * load()  :  lazy loading
+		 * get() : early loading
+		 * args :  1. classname.class
+		 *             2.  id value
+		 *    
+		 */
+		      Session session = factory.openSession();
+		    //  Employee emp = session.get(Employee.class, sid);
+		      Employee emp =session .load(Employee.class, sid);
+		      try {
+				Thread.sleep(3000);
+			} catch (Exception e) {
+				
+			}
+		      System.out.println("Name of Student : "+ emp.getSname());
+		      session .close();
+		return emp;
+	}
+
+	@Override
+	public Employee updateEmployee(int sid, int salary) {
+		Session session  = factory.openSession();
+		Employee e = session.get(Employee.class, sid);
+		Transaction t = session.beginTransaction();
+		try {
+			e.setSalary(salary);
+			session.update(e);
+			t.commit();
+			System.out.println("object  is updated .........................");
+			
+		} catch (Exception e2) {
+			t.rollback();
+			System.out.println("object is not updated ......................");
+			
+		}
+		finally {
+			session.close();
+		}
+		return e;
+	}
+
+	@Override
+	public void deleteEmployee(int sid) {
+		Session session = factory.openSession();
+		Employee e = session.get(Employee.class, sid);
+		Transaction t = session.beginTransaction();
+		try {
+			session.delete(e);
+			System.out.println("object is deleted............");
+			t.commit();
+		} catch (Exception e2) {
+			t.rollback();
+			System.out.println("object is not delected ..................");
+		}finally {
+			session.close();
+		}
+		
 	}
 
 }

@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Hibernate\Test\pom.xml"/>
 			<item value="D:\Hibernate\HibernateFirstApplication\pom.xml"/>
 			<item value="D:\Hibernate\HibernateFirstApplication"/>
 		</list>
@@ -27,6 +28,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.sy.App"/>
 			<item value="com.sy.sunny"/>
 			<item value="com.ashokit.Test"/>
 			<item value="com.ashokit.Application"/>
@@ -38,8 +40,8 @@
 			<item value="com.ait"/>
 		</list>
 		<list key="artifactId">
-			<item value="Test"/>
 			<item value="Application"/>
+			<item value="Test"/>
 			<item value="HibernateFirstApplication"/>
 			<item value="Hibernate-First-Application"/>
 		</list>
@@ -52,8 +54,8 @@
 			<item value="[name]"/>
 		</list>
 		<list key="version">
-			<item value="1.1"/>
 			<item value="0.0.1-SNAPSHOT"/>
+			<item value="1.1"/>
 		</list>
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
