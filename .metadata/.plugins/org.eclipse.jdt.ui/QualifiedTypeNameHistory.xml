@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.persistence.Id"/>
-    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
-    <fullyQualifiedTypeName name="org.hibernate.annotations.CreationTimestamp"/>
-    <fullyQualifiedTypeName name="org.hibernate.annotations.UpdateTimestamp"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="javax.persistence.Embeddable"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
-    <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="javax.persistence.EmbeddedId"/>
-    <fullyQualifiedTypeName name="javax.persistence.Column"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
-    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="com.ait.StudentDAO.StudentDAO"/>
     <fullyQualifiedTypeName name="com.ait.dao.impl.StudentDAOImpl"/>
     <fullyQualifiedTypeName name="com.ait.Entity.StudentCompositeKey"/>
     <fullyQualifiedTypeName name="com.ait.Entity.StudentEntity"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
     <fullyQualifiedTypeName name="com.ait.entity.ProductEntity"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
     <fullyQualifiedTypeName name="javax.imageio.spi.ServiceRegistry"/>
     <fullyQualifiedTypeName name="com.ait.entity.Student"/>
     <fullyQualifiedTypeName name="com.sy.dao.EmployeeDAO"/>
@@ -34,4 +23,16 @@
     <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
     <fullyQualifiedTypeName name="com.sy.App.Employee"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="org.hibernate.annotations.CreationTimestamp"/>
+    <fullyQualifiedTypeName name="org.hibernate.annotations.UpdateTimestamp"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
+    <fullyQualifiedTypeName name="com.ait.entity.StudentEntity"/>
 </qualifiedTypeNameHistroy>

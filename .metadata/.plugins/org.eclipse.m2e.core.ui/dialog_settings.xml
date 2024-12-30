@@ -28,18 +28,19 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.ait.entity"/>
 			<item value="com.sy.App"/>
 			<item value="com.sy.sunny"/>
 			<item value="com.ashokit.Test"/>
 			<item value="com.ashokit.Application"/>
-			<item value="com.ait.entity"/>
 		</list>
 		<list key="groupId">
+			<item value="com.ait"/>
 			<item value="com.sy"/>
 			<item value="com.ashokit"/>
-			<item value="com.ait"/>
 		</list>
 		<list key="artifactId">
+			<item value="JpaHibernateApplication1"/>
 			<item value="Application"/>
 			<item value="Test"/>
 			<item value="HibernateFirstApplication"/>
@@ -54,8 +55,8 @@
 			<item value="[name]"/>
 		</list>
 		<list key="version">
-			<item value="0.0.1-SNAPSHOT"/>
 			<item value="1.1"/>
+			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
