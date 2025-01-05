@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Hibernate\JpaHibernateApplication1\src\main\java\com\ait\client\Tester.java"/>
 			<item value="D:\Hibernate\Test\pom.xml"/>
 			<item value="D:\Hibernate\HibernateFirstApplication\pom.xml"/>
 			<item value="D:\Hibernate\HibernateFirstApplication"/>
@@ -29,22 +30,12 @@
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
 			<item value="com.ait.entity"/>
-			<item value="com.sy.App"/>
-			<item value="com.sy.sunny"/>
-			<item value="com.ashokit.Test"/>
-			<item value="com.ashokit.Application"/>
 		</list>
 		<list key="groupId">
 			<item value="com.ait"/>
-			<item value="com.sy"/>
-			<item value="com.ashokit"/>
 		</list>
 		<list key="artifactId">
-			<item value="JpaHibernateApplication1"/>
-			<item value="Application"/>
-			<item value="Test"/>
-			<item value="HibernateFirstApplication"/>
-			<item value="Hibernate-First-Application"/>
+			<item value="EmbeddableApplication"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
