@@ -33,7 +33,7 @@
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
     <fullyQualifiedTypeName name="com.ait.entity.StudentEntity"/>
     <fullyQualifiedTypeName name="com.ait.entity.StudentCompositeKey"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
 </qualifiedTypeNameHistroy>

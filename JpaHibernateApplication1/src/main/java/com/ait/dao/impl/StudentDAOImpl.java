@@ -67,4 +67,38 @@ public class StudentDAOImpl implements StudentDAO {
 		
 	}
 
-}
+	@Override
+	public void testEntityStates() {
+	EntityManager entitymanager  = emf.createEntityManager();
+	    /* 
+	     * create new student
+	     */
+	     
+	 //  StudentEntity em =new StudentEntity();//Transient State
+	   /*em.setStudentname("Radha");
+	   em.setStudentid(101);
+	   em.setBranch("CSE");
+	   em.setGender("Female");
+	   em.setMarks(504);*/
+	     StudentEntity em = entitymanager.find(StudentEntity.class, 101);
+	   /* EntityTransaction tx =entitymanager.getTransaction();
+	    tx.begin();
+	    entitymanager.persist(em);//Persistent state
+	    tx.commit();*/
+	    entitymanager.detach(em);//Detach state
+	    em.setMarks(605);//The changes made to an entity in detach state does not effect.
+	    EntityTransaction t = entitymanager.getTransaction();
+	    t.begin();
+	    entitymanager.merge(em);//moved from detached state to persistent state
+	    t.commit();
+	    entitymanager.close();
+	   
+		
+	}
+	
+
+
+
+
+		
+	}

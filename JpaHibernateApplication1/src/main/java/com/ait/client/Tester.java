@@ -7,14 +7,14 @@ public class Tester {
 	public static void main(String[] args) {
 		StudentDAO dao = new StudentDAOImpl();
 		/*StudentEntity se =new StudentEntity();
-		se.setStudentid(105);
-		se.setStudentname("Sita");
+		se.setStudentid(102);
+		se.setStudentname("Rekha");
 		se.setGender("Female");
 		se.setBranch("EC");
-		se.setMarks(565);
+		se.setMarks(560);
 		dao.saveStudent(se);*/
 		//dao.updateStudentById(101, 600);
-		
+		dao.testEntityStates(); 
 
 	}
 
