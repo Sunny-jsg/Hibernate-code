@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Hibernate\JpaHibernateApplication1\pom.xml"/>
 			<item value="D:\Hibernate\JpaHibernateApplication1\src\main\java\com\ait\client\Tester.java"/>
 			<item value="D:\Hibernate\Test\pom.xml"/>
 			<item value="D:\Hibernate\HibernateFirstApplication\pom.xml"/>
@@ -35,7 +36,7 @@
 			<item value="com.ait"/>
 		</list>
 		<list key="artifactId">
-			<item value="EmbeddableApplication"/>
+			<item value="JPQLApplication"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
