@@ -36,6 +36,7 @@
 			<item value="com.ait"/>
 		</list>
 		<list key="artifactId">
+			<item value="NamedQueryApplication"/>
 			<item value="JPQLApplication"/>
 		</list>
 		<list key="projectNameTemplate">
