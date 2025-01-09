@@ -9,8 +9,10 @@ public class Tester {
 		EmployeeDAO dao = new EmployeeDAOImpl();
 		/*List<EmployeeEntity> lst = dao.executeNamedQuery(20);
 		lst.forEach(System.out::println);*/
-		List<EmployeeEntity> lst = dao.executeNamedNativeQuery(40000);
-		lst.forEach(System.out::println);
+		/*List<EmployeeEntity> lst = dao.executeNamedNativeQuery(40000);
+		lst.forEach(System.out::println);*/
+		List<EmployeeEntity> list = dao.executeCriteriaQuery();
+		list.forEach(System.out::println);
 	}
 
 }
