@@ -28,7 +28,6 @@
     <fullyQualifiedTypeName name="javax.persistence.EmbeddedId"/>
     <fullyQualifiedTypeName name="com.ait.entity.StudentEntity"/>
     <fullyQualifiedTypeName name="com.ait.entity.StudentCompositeKey"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
@@ -38,8 +37,13 @@
     <fullyQualifiedTypeName name="javax.persistence.NamedNativeQuery"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.ait.entity.EmployeeEntity"/>
+    <fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
+    <fullyQualifiedTypeName name="javax.persistence.NamedStoredProcedureQuery"/>
+    <fullyQualifiedTypeName name="javax.persistence.StoredProcedureParameter"/>
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
-    <fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
+    <fullyQualifiedTypeName name="javax.persistence.ParameterMode"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

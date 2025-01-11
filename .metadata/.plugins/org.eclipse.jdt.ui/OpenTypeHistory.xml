@@ -4,4 +4,5 @@
     <typeInfo handle="=EmbeddableApplication/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ait.dao{StudentDAO.java[StudentDAO" modifiers="513" timestamp="1735905449436"/>
     <typeInfo handle="=JPQLApplication/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ait.dao{EmployeeDAO.java[EmployeeDAO" modifiers="513" timestamp="1736254581045"/>
     <typeInfo handle="=NamedQueryApplication/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ait.dao{EmployeeDAO.java[EmployeeDAO" modifiers="513" timestamp="1736418468370"/>
+    <typeInfo handle="=JPAProcedure/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ait.dao{EmpDAO.java[EmpDAO" modifiers="513" timestamp="1736520785744"/>
 </typeInfoHistroy>

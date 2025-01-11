@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Hibernate\NamedQueryApplication\src\main\java\com\ait\dao\impl\EmployeeDAOImpl.java"/>
 			<item value="D:\Hibernate\JpaHibernateApplication1\pom.xml"/>
 			<item value="D:\Hibernate\JpaHibernateApplication1\src\main\java\com\ait\client\Tester.java"/>
 			<item value="D:\Hibernate\Test\pom.xml"/>
@@ -36,8 +37,7 @@
 			<item value="com.ait"/>
 		</list>
 		<list key="artifactId">
-			<item value="NamedQueryApplication"/>
-			<item value="JPQLApplication"/>
+			<item value="JPAProcedure"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
