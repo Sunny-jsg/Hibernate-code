@@ -2,6 +2,7 @@ package com.ait.otm.test;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.util.Arrays;
 import java.util.List;
 
@@ -17,7 +18,7 @@ public class Tester {
 		/*
 		 * Call saveCategory() method
 		 */
-		CategoryEntity ce = new CategoryEntity();
+	/*	CategoryEntity ce = new CategoryEntity();
 		ce.setCategoryId(211065);
 		ce.setCategoryName("ELECTRONICS");
 		ProductEntity pe = new ProductEntity();
@@ -54,7 +55,27 @@ public class Tester {
 		pe3.setProductimage(imagebytes3);
 		List<ProductEntity> lstOfProducts = Arrays.asList(pe,pe1,pe2,pe3);
 		ce.setLstOfProducts(lstOfProducts);
-		dao.saveCategory(ce);
+		dao.saveCategory(ce);*/
+		/*
+		 *  call fetchCategory() method
+		 */
+		/*CategoryEntity cEntity = dao.fetchCategory(211065);
+		System.out.println("CategoryName :: "+ cEntity.getCategoryName());
+		List<ProductEntity> list = cEntity.getLstOfProducts();
+		//Read the First Elements of the List ::
+		ProductEntity pEntity = list.get(1);
+		System.out.println("Product_Id :: "+ pEntity.getProductId());
+		System.out.println("Product_Name :: "+ pEntity.getProductName());
+		byte[] bytesOfImage = pEntity.getProductimage();
+		File f1 = new File("D:\\image_From_DB\\Tv _image_FromDB.jpeg");
+		FileOutputStream fos = new  FileOutputStream(f1);
+		fos.write(bytesOfImage);
+		System.out.println("please check the image at :  "+ f1.getAbsolutePath());*/
+		/*
+		 *  call removeCategory () method
+		 
+		 */
+		dao.removeCategory(211065);
 
 	}
 
