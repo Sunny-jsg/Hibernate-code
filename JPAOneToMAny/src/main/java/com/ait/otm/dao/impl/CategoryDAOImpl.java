@@ -1,9 +1,12 @@
 package com.ait.otm.dao.impl;
 
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
+import javax.persistence.TypedQuery;
 
 import com.ait.otm.dao.CategoryDAO;
 import com.ait.otm.entities.CategoryEntity;
@@ -56,6 +59,23 @@ public class CategoryDAOImpl implements CategoryDAO {
 		} finally {
 			em.close();
 		}
+
+	}
+
+	@Override
+	public void testJPQLQuery() {
+		EntityManager em = factory.createEntityManager();
+		String jpqlquery = "SELECT c. CategoryName,"
+		+	"p. ProductName from CategoryEntity c"
+				+"join c.lstOfProducts p";
+		TypedQuery<Object[]> tq = em.createQuery(jpqlquery, Object[].class);
+		List<Object[]> lst = tq.getResultList();
+		lst.forEach(obj ->
+		{
+			System.out.println(obj[0] +"      "+obj[1]);
+		}
+		);
+		em.close();
 
 	}
 

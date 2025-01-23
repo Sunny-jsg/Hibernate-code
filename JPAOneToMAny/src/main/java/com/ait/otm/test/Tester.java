@@ -18,7 +18,7 @@ public class Tester {
 		/*
 		 * Call saveCategory() method
 		 */
-	/*	CategoryEntity ce = new CategoryEntity();
+	/*CategoryEntity ce = new CategoryEntity();
 		ce.setCategoryId(211065);
 		ce.setCategoryName("ELECTRONICS");
 		ProductEntity pe = new ProductEntity();
@@ -75,8 +75,11 @@ public class Tester {
 		 *  call removeCategory () method
 		 
 		 */
-		dao.removeCategory(211065);
-
+		//dao.removeCategory(211065);
+		/*
+		 * Test jpqlQuery 
+		 */
+     dao.testJPQLQuery();
 	}
 
 }
