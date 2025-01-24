@@ -5,7 +5,7 @@
     <typeInfo handle="=JPQLApplication/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ait.dao{EmployeeDAO.java[EmployeeDAO" modifiers="513" timestamp="1736254581045"/>
     <typeInfo handle="=NamedQueryApplication/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ait.dao{EmployeeDAO.java[EmployeeDAO" modifiers="513" timestamp="1736418468370"/>
     <typeInfo handle="=JPAProcedure/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ait.dao{EmpDAO.java[EmpDAO" modifiers="513" timestamp="1736520785744"/>
-    <typeInfo handle="=JPAOneToMAny/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ait.otm.dao{CategoryDAO.java[CategoryDAO" modifiers="513" timestamp="1736764889250"/>
+    <typeInfo handle="=JPAOneToMAny/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ait.otm.dao{CategoryDAO.java[CategoryDAO" modifiers="513" timestamp="1737626559076"/>
     <typeInfo handle="=JPAManyToOne/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ait.mto.dao{LoanDAO.java[LoanDAO" modifiers="513" timestamp="1737106408638"/>
     <typeInfo handle="=JPAManyToMAny/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ait.mtm.dao{BookDAO.java[BookDAO" modifiers="513" timestamp="1737391497413"/>
     <typeInfo handle="=JPAOneToOne/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ait.oto.dao{PersonDAO.java[PersonDAO" modifiers="513" timestamp="1737455773010"/>

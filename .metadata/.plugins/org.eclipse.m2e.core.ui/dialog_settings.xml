@@ -32,21 +32,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.ait.oto.entities"/>
-			<item value="com.ait.mtm.entities"/>
-			<item value="com.ait.mto.entities"/>
-			<item value="com.ait.otm.entities"/>
 			<item value="com.ait.entity"/>
 		</list>
 		<list key="groupId">
 			<item value="com.ait"/>
 		</list>
 		<list key="artifactId">
-			<item value="JPAOneToOne"/>
-			<item value="JPAManyToMAny"/>
-			<item value="JPAManyToOne"/>
-			<item value="JPAOneToMAny"/>
-			<item value="JPAProcedure"/>
+			<item value="JPAIdGenerator"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -58,7 +50,6 @@
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
-			<item value="1.1"/>
 		</list>
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
